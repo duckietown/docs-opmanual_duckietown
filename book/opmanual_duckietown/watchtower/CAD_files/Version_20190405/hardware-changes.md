@@ -1,4 +1,4 @@
-# Hardware changes made to this version
+# Hardware changes made to this version {#book:duckietowns status=beta}
 
 The following changes have been made with respect to the version from 2018-07-25
 
