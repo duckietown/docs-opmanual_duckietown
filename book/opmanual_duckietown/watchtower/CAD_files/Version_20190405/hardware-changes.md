@@ -1,4 +1,4 @@
-# Hardware changes made to this version {#part:dt-ops-watchtowers status=beta}
+# Hardware changes made to this version {#part:watchtowers-hardware-changes status=beta}
 
 The following changes have been made with respect to the version from 2018-07-25
 
