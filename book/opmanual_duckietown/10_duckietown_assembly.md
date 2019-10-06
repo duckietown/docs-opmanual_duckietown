@@ -19,7 +19,6 @@ You can refer to these resources for assembly tips on the various city elements:
 * [Roads](#dt-ops-tiles);
 * [Traffic signs](#dt-ops-city-traffic-signs);
 * [Traffic lights](#traffic-light-assembly);
-* [Watchtowers](#auto-localization-hardware);
 
 ## Bring it to life!
 

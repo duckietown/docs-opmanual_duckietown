@@ -493,7 +493,7 @@ See rc-control
 ### Launch Traffic Lights {#dt-ops-tl-launch status=ready}
 To download and run the trafficlight docker image, simply run:
 
-    docker -H ![hostname].local run -dit --privileged --name trafficlight --network=host duckietown/traffic-lights:master18
+    docker -H ![hostname].local run -dit --privileged --name trafficlight --network=host duckietown/traffic-lights:master19
 
 
 <!--

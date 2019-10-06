@@ -24,7 +24,7 @@ Regardless of the geometry of the roads (straight, curve, intersections), roads 
 
 ## Signals Layer {#dt-ops-signals-layer status=ready}
 
-The signals layer contains all the [signs](#dt-ops-city-traffic-signs) and other functional objects (e.g., [traffic lights](#traffic-light-assembly) or [watchtowers](#part:dt-ops-watchtowers)) that sit on top of the mats. Objects are functional when they enable some behavior for the Duckiebots. For example, traffic signs are functional because they inform Duckiebots at intersections where they are and what should they look out for to know when to drive on.
+The signals layer contains all the [signs](#dt-ops-city-traffic-signs) and other functional objects (e.g., [traffic lights](#traffic-light-assembly)) that sit on top of the mats. Objects are functional when they enable some behavior for the Duckiebots. For example, traffic signs are functional because they inform Duckiebots at intersections where they are and what should they look out for to know when to drive on.
 
 ## Non-functional elements {#dt-ops-non-functional-layer status=ready}
 
