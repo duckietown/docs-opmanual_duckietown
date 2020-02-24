@@ -73,11 +73,26 @@ First, you should print out the pdf version of the signs and tags file on the th
 
 ### Assemble the stands
 
-Assemble the wooden base of the signals, according to the following instructions.
+The Traffic sign stand consists of a laser cut kit as is shown in [](#fig:traffic_stand_assembly_1).
 
-TODO: write
+<div figure-id="fig:traffic_stand_assembly_1">
+  <figcaption> Traffic sign stand kit. </figcaption>
+  <img style="width: 25%; height: auto;" src="opmanual_duckietown/images/traffic_sign/trafficsign_kit.png"/>
+</div>
 
-Then use the provided sticker to affix the the paper sign to the wooden base.
+Detach the components from the wooden plate and plug them together as in [](#fig:traffic_stand_assembly_2). Typically the stands are very rigid, but if the structure seems a bit loose, use wooden glue to increase stability. 
+
+<div figure-id="fig:traffic_stand_assembly_2">
+  <figcaption> Traffic sign stand assembled. </figcaption>
+  <img style="width: 25%; height: auto;" src="opmanual_duckietown/images/traffic_sign/trafficsign_stand_assembly.png"/>
+</div>
+
+Finally, you can use the provided double sided tape to attach the traffic sign to the stand. The resulting traffic sign should look as in [](#fig:traffic_stand_assembly_3).
+
+<div figure-id="fig:traffic_stand_assembly_3">
+  <figcaption> Traffic sign stand assembled with mounted traffic sign. </figcaption>
+  <img style="width: 25%; height: auto;" src="opmanual_duckietown/images/traffic_sign/trafficsign_stand_assembled.png"/>
+</div>
 
 ## Placement
 

@@ -105,7 +105,7 @@ Comment: this should be part of the "traffic rules" sections.
 * For curved roads, the white lane marker is formed by five pieces of white tape, while the inner corner is formed by three pieces, placed according to the specifications in the image below, where the edge pieces are matched to adjacent straight or curved tiles ([](#fig:curved)).
 
 <div figure-id="fig:curved" figure-caption="The specification for a curved road tile">
-  <img src="curved_road.png" style='width: 30em; height:auto'/>
+  <img src="opmanual_duckietown/images/tiles/curved_appearance_spec.png" style='width: 30em; height:auto'/>
 </div>
 
 #### Yellow tape
@@ -120,7 +120,7 @@ Here are some facts about the yellow tapes:
 
 * The yellow tape is always placed on the left hand side of a lane, i.e., in the center of the road. We assume that the Duckiebots drive on the right hand side of the road.
 
-Yellow tapes on curves: see curved road image ([](#fig:curved)) in white tape section. Pieces at tile edges should be in center of lane, piece at the middle of the curve should be approximately 20.5 cm from middle of inner center white piece of tape, with approximated circular arc in between.
+Yellow tapes on curves: see curved road image ([](#fig:curved)) in white tape section. Pieces at tile edges should be in center of lane, piece at the middle of the curve should be approximately 21 cm from middle of inner center white piece of tape, with approximated circular arc in between.
 
 #### Red tape
 
