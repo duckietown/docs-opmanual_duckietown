@@ -65,7 +65,7 @@ Each curved road segment has:
  
 ### Assembly 
 
-If you have a laser cutter available, you can use the provided file from [here]() to laser cut the template shown below. 
+If you have a laser cutter available, you can use the provided file from [here](https://github.com/duckietown/docs-opmanual_duckietown/tree/daffy/book/opmanual_duckietown/TileTemplates/CurvedTileTemplate) to laser cut the template shown below. 
 
 If you do not have access to a laser cutter, you have to create the middle line by hand. One way to do it is to take a string, place one end in the outer edge of the tile (excluding the interlocking teeth) and make small markings in the form of a quarter circle in a distance of 27.25cm.
 This represents the inner border of where you have to put the yellow tape. The length of the single tape pieces is 5cm as for the straight road segment. For more detailed measurements, refer to [](#fig:curved).
