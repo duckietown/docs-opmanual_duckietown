@@ -453,7 +453,10 @@ You can finally use the provided double-sided tape pads to fix the traffic light
 
 ### SD-card image Preparation {#dt-ops-tl-prep status=ready}
 
-At hardware and software level, traffic lights are Duckiebots without wheels. In initializing the SD-card of your traffic light, treat is as if it were a Duckiebot: [](+opmanual_duckiebot#setup-duckiebot). Don't forget the `--compress` option for 16GB sd cards.
+At hardware and software level, traffic lights are Duckiebots without wheels. In initializing the SD-card of your 
+traffic light, follow the instructions [here](+opmanual_duckiebot#setup-duckiebot), with the extra step of using the 
+option `--type traffic_light`. Also, WiFi configuration is ignored while initializing a traffic light.
+
 
 - For Robotarium users: since traffic lights are coupled to watchtowers, please use the watchtower setup:
         hostname : watchtowerXX
@@ -491,9 +494,11 @@ See rc-control
 -->
 
 ### Launch Traffic Lights {#dt-ops-tl-launch status=ready}
-To download and run the trafficlight docker image, simply run:
+By choosing the `robot_type` to be `traffic_light`, the blinking behaviour should happen as soon as you boot your device.
 
-    docker -H ![hostname].local run -dit --privileged --name trafficlight --network=host duckietown/traffic-lights:master18
+If you need to manually restart the behaviour inside the `duckiebot-interface` container, you can restart the traffic light behaviour by running
+
+    duckiebot-container $ roslaunch duckiebot_interface all_drivers.launch veh:=![NAME] robot_type:=traffic_light
 
 
 <!--
