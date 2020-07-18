@@ -2,11 +2,12 @@ version: 2
 jobs:
     build:
         docker:
-        - image: andreacensi/mcdp_books:daffy
+        - image: duckietown/docs-build:daffy
           environment:
               COLUMNS: 160
               TERM: xterm-256color
               EXTRA_MCDP_RENDER_OPTIONS: --ignore_ref_errors
+              COMPMAKE_COMMAND: "rparmake n=3"
 
         resource_class: large
         steps:
