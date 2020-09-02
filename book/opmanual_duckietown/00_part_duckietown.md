@@ -1,4 +1,4 @@
-# Operation manual - Duckietown {#book:duckietowns status=ready}
+# Operation manual - Duckietown {#book:book status=ready}
 
 Welcome to the Duckietown (city) operation manual. Here you will find the instructions to get started and other useful information.
 
