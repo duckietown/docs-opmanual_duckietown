@@ -461,20 +461,14 @@ using the `--wifi` option as specified int the [instructions](+opmanual_duckiebo
 
 - For Robotarium users: since traffic lights are coupled to watchtowers, please use the watchtower setup:
         hostname : watchtowerXX
-        linuxname : mom
-        password: MomWatches
 
 - However, if you just want to use it as a traffic light, use the trafficlight setup:
         hostname : trafficlightXX
-        linuxname : tlo
-        password: quackquack
 
-After this step, you should have a traffic light image name.
+- The default username and password are all the same:
 
-    tlo@trafficlight01.local
-or
-
-    mom@watchtower01.local
+    Username: duckie
+    Password: quackquack
 
 
 <!--
