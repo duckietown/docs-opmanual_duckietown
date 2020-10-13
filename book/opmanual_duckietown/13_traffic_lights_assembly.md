@@ -458,6 +458,9 @@ traffic light, follow the instructions [here](+opmanual_duckiebot#setup-duckiebo
 option `--type traffic_light`. Also, WiFi configuration for traffic lights is by default not set. You can add it
 using the `--wifi` option as specified int the [instructions](+opmanual_duckiebot#setup-duckiebot).
 
+An example flashing command for a wifi connected traffic light can be:
+
+    laptop $ dts init_sd_card --hostname watchtower![XX] --country ![COUNTRY] --type traffic_light --configuration TL19 --wifi duckietown:quackquack
 
 - For Robotarium users: since traffic lights are coupled to watchtowers, please use the watchtower setup:
         hostname : watchtowerXX
@@ -470,6 +473,7 @@ using the `--wifi` option as specified int the [instructions](+opmanual_duckiebo
     Username: duckie
     Password: quackquack
 
+Warning: For autolab users, do not change the username and password.
 
 <!--
 
