@@ -2,7 +2,7 @@
 
 To assemble a Duckietown, follow this workflow:
 
-* [Appearance specifications](#dt-ops-appearance-specifications): Make sure you familiar with the design rules of Duckietown.
+* [Appearance specifications](#dt-ops-appearance-specifications): Make sure you have not skipped the preliminaries section and are familiar with the design rules of Duckietown.
 
 * [Design](#dt-ops-appearance-specifications): Design a map according to the appearance specifications. If you are enrolled in the [Self-Driving cars with Duckietown](https://www.edx.org/course/self-driving-cars-with-duckietown) massive open online course (MOOC) you will need a map as in [](#fig:mooc-map).
 
@@ -14,13 +14,11 @@ To assemble a Duckietown, follow this workflow:
 
 You can refer to these resources for assembly tips on the various city elements:
 
-* [Roads assembly](#dt-ops-tiles);
-* [Traffic signs assembly](#dt-ops-city-traffic-signs);
-* [Traffic lights assembly](#traffic-light-assembly);
+- [Roads assembly](#dt-ops-tiles);
+- [Traffic signs assembly](#dt-ops-city-traffic-signs);
+- [Traffic lights assembly](#traffic-light-assembly);
 
-## Bring it to life!
-
-Populate your city with tons of Duckies!
+Once you are done building your city, populate it with tons of Duckies!
 
 <div figure-id="fig:tons-of-duckies" figure-caption="Just another day in Duckietown: the city of joy and relaxed introspection">
   <img src="tons-of-duckies.jpg" style='width: 30em; height:auto'/>
