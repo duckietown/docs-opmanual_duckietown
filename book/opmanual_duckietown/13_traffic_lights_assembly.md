@@ -2,9 +2,9 @@
 
 <div class='requirements' markdown="1">
 
-Requires: Material: Traffic light components. To obtain them contact info@duckietown.org.
+Requires: Traffic light components.
 
-Requires: An [initialized SD-card](+opmanual_duckiebot#setup-duckiebot).
+Requires: An appropriately [configured SD-card](https://docs.duckietown.org/daffy/opmanual_duckiebot/out/setup_duckiebot.html).
 
 Requires: Tools: (strong) wood glue or hot glue gun, tape, double-sided tape.
 
@@ -12,7 +12,11 @@ Result: Traffic light.
 </div>  
 
 
-Traffic lights are useful to coordinate traffic at intersections. Traffic lights can be used at three or four way intersections. Hardware wise, Traffic lights are Duckiebots without wheels, and a beautiful different chassis.
+<!--
+: fix link above with proper inter book link.
+-->
+
+Traffic lights are useful to coordinate traffic at intersections. They can be used at three or four way intersections. Hardware wise, traffic lights are essentially "Duckiebots without wheels", and a beautiful different chassis.
 
 Reminder: for traffic lights to be recognized by Duckiebots, appropriate signage must be placed at intersections (traffic light traffic sign instead of stop sign).
 
@@ -28,9 +32,8 @@ Traffic lights are crucial parts in modern cities. We rely on them to have well-
 
 Traffic lights are composed of two wooden boxes on the diagonal direction of an intersection. One of them is equipped with the computational stack and connection to the a camera.
 
-TODO: Add a photo of one intersection with a **new model** traffic light (as in pics below).
-
 <!--
+TODO: Add a photo of one intersection with a **new model** traffic light (as in pics below).
 
 Traffic lights node are expected to launch whenever they turn on.
 
@@ -453,8 +456,8 @@ You can finally use the provided double-sided tape pads to fix the traffic light
 
 ### SD-card image Preparation {#dt-ops-tl-prep status=ready}
 
-At hardware and software level, traffic lights are Duckiebots without wheels. In initializing the SD-card of your 
-traffic light, follow the instructions [here](+opmanual_duckiebot#setup-duckiebot), with the extra step of using the 
+At hardware and software level, traffic lights are Duckiebots without wheels. In initializing the SD-card of your
+traffic light, follow the instructions [here](+opmanual_duckiebot#setup-duckiebot), with the extra step of using the
 option `--type traffic_light`. Also, WiFi configuration for traffic lights is by default not set. You can add it
 using the `--wifi` option as specified int the [instructions](+opmanual_duckiebot#setup-duckiebot).
 
@@ -462,7 +465,7 @@ An example flashing command for a wifi connected traffic light can be:
 
     laptop $ dts init_sd_card --hostname watchtower![XX] --country ![COUNTRY] --type traffic_light --configuration TL19 --wifi duckietown:quackquack
 
-- For Robotarium users: since traffic lights are coupled to watchtowers, please use the watchtower setup:
+- For Autolab users: since traffic lights are coupled to watchtowers, please use the watchtower setup:
         hostname : watchtowerXX
 
 - However, if you just want to use it as a traffic light, use the trafficlight setup:

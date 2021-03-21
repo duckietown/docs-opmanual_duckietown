@@ -42,11 +42,12 @@ The more complex Duckiebot behaviors require intersections and other city elemen
 
 Navigable cities are city loops connected by intersections, meeting the appearance specification. Navigable cities require traffic signs.
 
-Navigable cities enable testing of Duckiebot behaviors. A complete list (for one or more Duckiebots) of behaviors can be found in the [demo section](https://github.com/duckietown/docs-robotarium/blob/master/book/robotarium/00_book_robotarium.md) of the Duckiebot operation manual.
+Navigable cities enable testing of Duckiebot behaviors. A complete list (for one or more Duckiebots) of behaviors can be found in the [demo section](https://docs.duckietown.org/daffy/opmanual_duckiebot/out/demos.html) of the Duckiebot operation manual.
 
-## Robotarium {#dt-ops-robotarium-def status=ready}
+## Autolab {#dt-ops-robotarium-def status=ready}
 
-Robotariums (Robotic aquariums) are experimental Duckietowns designed for continuous operations. Robotariums require a maintenance area in addition to a Duckietown, providing essential functions like automatic charging. More information on Robotariums can be found in the [Robotarium book](https://github.com/duckietown/docs-robotarium).
+Autolabs are experimental Duckietowns designed for continuous operations. Autolabs require a maintenance area in addition to a Duckietown, providing essential functions like automatic charging. More information on Autolabs can be found in the [Autolab book](https://docs.duckietown.org/daffy/opmanual_autolab/out/index.html).
 
-
+<!--
 TODO: switch last two links with proper inter-book references
+-->

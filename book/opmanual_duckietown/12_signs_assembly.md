@@ -12,17 +12,20 @@ Results: A set of signs to be used for assembling your Duckietown.
 
 Before beginning with sign assembly you should design a map that adheres to [the specification](#dt-ops-appearance-specifications).
 
+<!--
 An example that was used for the 2017 version of the class is here: [](+fall2017_info#fall2017-map)
-
+-->
 The full set of currently existing signs is available here: [pdf](https://github.com/duckietown/Software/blob/master18/catkin_ws/src/20-indefinite-navigation/apriltags_ros/signs_and_tags/Signs_and_tags_V3.pdf) [docx](https://github.com/duckietown/Software/blob/master18/catkin_ws/src/20-indefinite-navigation/apriltags_ros/signs_and_tags/Signs_and_tags_V3.docx)
 
 The set of tags used for the 2017 map are available here: [pdf](https://github.com/duckietown/Software/blob/master18/catkin_ws/src/20-indefinite-navigation/apriltags_ros/signs_and_tags/Signs_and_tags_2017.pdf) [docx](https://github.com/duckietown/Software/blob/master18/catkin_ws/src/20-indefinite-navigation/apriltags_ros/signs_and_tags/Signs_and_tags_2017.docx)
 
+<!--
+TODO: review above for accuracy in 2021
+-->
 
 ## Making New Signage {#making-new-signage}
 
 If you find that what is available in the database in insufficient for your needs, then you will need to add to the existing database.
-
 
 To do so you will have to load the original AprilTags file available here: [pdf](https://github.com/duckietown/Software/blob/master18/catkin_ws/src/20-indefinite-navigation/apriltags_ros/signs_and_tags/tag36h11.pdf) [ps](https://github.com/duckietown/Software/blob/master18/catkin_ws/src/20-indefinite-navigation/apriltags_ros/signs_and_tags/tag36h11.ps)
 
@@ -61,26 +64,30 @@ When finished, regenerate the PDF version of the Word file, and commit everythin
 
 Note: It is also possible of course to start you own completely different signs and tags database, but make sure that you specify in the `april_tags` code which database to load from.
 
+<!--
 TODO: Update the way that the april tags code loads the database
+-->
 
 ## Traffic Signs Assembly
 
+<!--
 ### Print the signals
 
 TODO: add pdfs with intersections
 
 First, you should print out the pdf version of the signs and tags file on the thickest card stock available. Cut the signs out with a straight edge and a very sharp knife, leaving a small border of white around the sign.
+-->
 
 ### Assemble the stands
 
-The Traffic sign stand consists of a laser cut kit as is shown in [](#fig:traffic_stand_assembly_1).
+A traffic sign stand consists of a laser cut structure as is show [](#fig:traffic_stand_assembly_1).
 
 <div figure-id="fig:traffic_stand_assembly_1">
   <figcaption> Traffic sign stand kit. </figcaption>
   <img style="width: 25%; height: auto;" src="opmanual_duckietown/images/traffic_sign/trafficsign_kit.png"/>
 </div>
 
-Detach the components from the wooden plate and plug them together as in [](#fig:traffic_stand_assembly_2). Typically the stands are very rigid, but if the structure seems a bit loose, use wooden glue to increase stability. 
+Detach the components from the wooden plate and plug them together as in [](#fig:traffic_stand_assembly_2). Typically the stands are very rigid, but if the structure seems a bit loose, use wooden glue to increase stability.
 
 <div figure-id="fig:traffic_stand_assembly_2">
   <figcaption> Traffic sign stand assembled. </figcaption>
