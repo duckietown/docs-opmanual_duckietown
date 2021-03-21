@@ -12,8 +12,9 @@ Results: A set of signs to be used for assembling your Duckietown.
 
 Before beginning with sign assembly you should design a map that adheres to [the specification](#dt-ops-appearance-specifications).
 
+<!--
 An example that was used for the 2017 version of the class is here: [](+fall2017_info#fall2017-map)
-
+-->
 The full set of currently existing signs is available here: [pdf](https://github.com/duckietown/Software/blob/master18/catkin_ws/src/20-indefinite-navigation/apriltags_ros/signs_and_tags/Signs_and_tags_V3.pdf) [docx](https://github.com/duckietown/Software/blob/master18/catkin_ws/src/20-indefinite-navigation/apriltags_ros/signs_and_tags/Signs_and_tags_V3.docx)
 
 The set of tags used for the 2017 map are available here: [pdf](https://github.com/duckietown/Software/blob/master18/catkin_ws/src/20-indefinite-navigation/apriltags_ros/signs_and_tags/Signs_and_tags_2017.pdf) [docx](https://github.com/duckietown/Software/blob/master18/catkin_ws/src/20-indefinite-navigation/apriltags_ros/signs_and_tags/Signs_and_tags_2017.docx)
@@ -80,7 +81,7 @@ The Traffic sign stand consists of a laser cut kit as is shown in [](#fig:traffi
   <img style="width: 25%; height: auto;" src="opmanual_duckietown/images/traffic_sign/trafficsign_kit.png"/>
 </div>
 
-Detach the components from the wooden plate and plug them together as in [](#fig:traffic_stand_assembly_2). Typically the stands are very rigid, but if the structure seems a bit loose, use wooden glue to increase stability. 
+Detach the components from the wooden plate and plug them together as in [](#fig:traffic_stand_assembly_2). Typically the stands are very rigid, but if the structure seems a bit loose, use wooden glue to increase stability.
 
 <div figure-id="fig:traffic_stand_assembly_2">
   <figcaption> Traffic sign stand assembled. </figcaption>
