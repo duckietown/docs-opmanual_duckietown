@@ -38,7 +38,7 @@ If you acquired a Duckietown Starter Pack, you have a city loop with traffic sig
 
 ## Navigable cities {#dt-ops-nav-def status=ready}
 
-Thee more complex Duckiebot behaviors require intersections and other city elements such as traffic lights to work. We define cities that include intersections as _navigable_ cities.
+The more complex Duckiebot behaviors require intersections and other city elements such as traffic lights to work. We define cities that include intersections as _navigable_ cities.
 
 Navigable cities are city loops connected by intersections, meeting the appearance specification. Navigable cities require traffic signs.
 
