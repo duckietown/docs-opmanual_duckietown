@@ -28,11 +28,15 @@ The signals layer contains all the [signs](#dt-ops-city-traffic-signs) and other
 
 ## Non-functional elements {#dt-ops-non-functional-layer status=ready}
 
-The citizens of Duckietown like their cities to be colorful and fun, and encourage all efforts at adding non-functional components to the city. Non functional objects can still sit on the floor, e.g., decorative building, but make sure they don't interfere with the signals or floor layers!
+The citizens of Duckietown like their cities to be colorful and fun, and encourage all efforts at adding non-functional components to the city. Non functional objects, e.g., decorative building, can still sit on the floor but make sure they don't interfere with the signals or floor layers!
 
-Moreover, although Duckiebot drivers all have their driving licenses and know to focus on the road, the _background_, i.e., whatever is in the room the Duckietown was assembled, matters too. More information in this regards can be found in the [troubleshooting](#part:dt-ops-troubleshooting) section.
+Moreover, although Duckiebot drivers all have their driving licenses and know to focus on the road, the _background_, i.e., whatever is in the room the Duckietown was assembled, matters too. 
+
+
 
 <!--
+
+More information in this regards can be found in the [troubleshooting](#part:dt-ops-troubleshooting) section.
 
 Note: the visual appearance of the area where the Duckietown is created is variable. If you discover that this appearance is causing negative performance, a "wall" of blank tiles constructed vertically can be used to reduce visual clutter.
 

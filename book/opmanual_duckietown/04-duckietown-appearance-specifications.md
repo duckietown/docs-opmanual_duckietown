@@ -164,7 +164,7 @@ Some examples of **non-conforming** topologies are shown in [](#fig:violates).
 </div>
 
 
-### Parking Lots {#parking status=beta}
+### Parking Lots {#parking status=draft}
 
 Note: The tile types described here are experimental. Use at your own risk!
 
@@ -176,25 +176,26 @@ A parking lot introduces three additional tile types:
 2. **Parking spot tiles**:
 3. **Parking spot access tiles**:
 
+<!--
 TODO: the tape on the spot and spot access tiles is currently not yet specified.
-
+-->
 The following are the rules for a conforming parking lot:
 
 1. One "parking spot" has size one tile.
 2. From each parking spot, there is a path to go to the parking lot entry tile that does not intersect any other parking spot. (i.e. when a Duckiebot is parked, nobody will disturb it).
 3. From any position in any parking spot, a Duckiebot can see at least two orthogonal lines or a sign with an April tag.
-
+<!--
 TODO: this point needs further specification
+-->
 
-
-### Launch Tiles {#launch-tiles status=beta}
+### Launch Tiles {#launch-tiles status=draft}
 
 Note: The tile type described here is experimental. Use at your own risk!
 
 A "launch tile" is used to introduce a new Duckiebot into a Duckietown in a controllable way. The launch file should be placed adjacent to a turn tile so that a Duckiebot may "merge" into Duckietown once the initialization procedure is complete.
-
+<!--
 TODO: Specification for tape on the launch tile
-
+-->
 A "yield" sign should be visible from the launch tile.
 
 ## Layer 2 - Signage and Lights
@@ -336,8 +337,9 @@ In these figures the arrow is the direction of the sign.
 
 * Text direction: Horizontal for alphabetical languages.
 
+<!--
 TODO: clarify street name conventions
-
+-->
 
 ### Placement
 
@@ -362,8 +364,7 @@ Street name signs should never be perpendicular to the road - they are too big a
 
 ## Traffic Lights {#traffic-light-app-spec status=ready}
 
-Requires: The assembly procedure for building the a traffic light is found in [](#traffic-light-assembly).
-
+The assembly procedure for building the a traffic light is found in [](#traffic-light-assembly).
 
 ### Placement
 
