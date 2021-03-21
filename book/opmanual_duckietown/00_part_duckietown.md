@@ -4,4 +4,7 @@ Welcome to the Duckietown (city) operation manual. Here you will find the instru
 
 * [](#dt-ops-preliminaries): What you need to know before you start.
 * [](#dt-ops-assembly): What you need to know to build a Duckietown.
+
+<!--
 * [](#dt-ops-troubleshooting): What could go wrong, and how to fix it.
+-->
