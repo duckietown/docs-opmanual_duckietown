@@ -210,7 +210,7 @@ Generally, it is advisable to adhere signal layer elements to the tiles with dou
 
 ## Traffic Signs {#traffic-signs status=ready}
 
-Traffic signage in Duckietown in obtained through the union of a traffic signs and an April Tag, as shown in [](#fig:traffic-sign-example)
+Traffic signage in Duckietown is obtained through the union of a traffic signs and an April Tag, as shown in [](#fig:traffic-sign-example)
 
 <div figure-id="fig:traffic-sign-example" figure-caption="A traffic sign in Duckietown (do not print this one out!)">
   <img src="traffic-sign-example.png" style='width: 20em; height:auto'/>
