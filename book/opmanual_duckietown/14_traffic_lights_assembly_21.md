@@ -2,7 +2,7 @@
 
 <div class='requirements' markdown="1">
 
-Requires: Material: Watchtower components. To obtain them contact info@duckietown.org.
+Requires: Material: Watchtower components. To obtain them contact info@duckietown.com.
 
 Requires: An [initialized SD-card](https://docs.duckietown.org/daffy/opmanual_autolab/out/watchtower_initialization.html) for traffic lights or Watchtowers.
 
