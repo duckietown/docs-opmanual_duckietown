@@ -1,4 +1,4 @@
-# Assembly - Traffic Light {#traffic-light-assembly status=ready}
+# Assembly - Traffic Light {#traffic-light-assembly-21 status=beta}
 
 <div class='requirements' markdown="1">
 
