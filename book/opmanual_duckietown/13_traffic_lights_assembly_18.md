@@ -1,21 +1,17 @@
-# Assembly - Traffic Light {#traffic-light-assembly-18 status=ready}
+# Assembly - Traffic Light `DT18-TL` {#traffic-light-assembly-18 status=ready}
+
 <div class='requirements' markdown="1">
 
-Requires: Traffic light components.
+Requires: `DT18-TL` Traffic light components (can be sourced from the [Duckietown project shop](https://get.duckietown.com/collections/the-duckietown-city/products/smart-traffic-light?variant=32311801413771))
 
 Requires: An appropriately [configured SD-card](https://docs.duckietown.org/daffy/opmanual_duckiebot/out/setup_duckiebot.html).
 
-Requires: Tools: (strong) wood glue or hot glue gun, tape, double-sided tape.
+Requires: Tools: wood glue or hot glue gun.
 
-Result: Traffic light.    
-</div>  
+Result: Traffic light in configuration `DT18-TL`.
+</div>
 
-
-<!--
-: fix link above with proper inter book link.
--->
-
-Traffic lights are useful to coordinate traffic at intersections. They can be used at three or four way intersections. Hardware wise, traffic lights are essentially "Duckiebots without wheels", and a beautiful different chassis.
+Traffic lights can be used to coordinate traffic at three or four way intersections in Duckietown. Hardware wise, traffic lights are essentially "Duckiebots without wheels", and a beautiful different chassis.
 
 Reminder: for traffic lights to be recognized by Duckiebots, appropriate signage must be placed at intersections (traffic light traffic sign instead of stop sign).
 
@@ -29,14 +25,9 @@ Traffic lights are crucial parts in modern cities. We rely on them to have well-
 
 -->
 
-Traffic lights are composed of two wooden boxes on the diagonal direction of an intersection. One of them is equipped with the computational stack and connection to the a camera.
+Traffic lights are composed of two supports connected by an overhanging tube. They are intended to be placed on the diagonal direction of an intersection. One of the supports is equipped with the computational stack and an overseeing camera.
 
-<!--
-TODO: Add a photo of one intersection with a **new model** traffic light (as in pics below).
-
-Traffic lights node are expected to launch whenever they turn on.
-
--->
+Traffic lights can double-up as [watchtowers](+opmanual_autolab#watchtower-hardware-assembly-WT18) when upgrading a Duckietown to [Duckietown Autolab](+opmanual_autolab#book). 
 
 ## Assembly of the traffic light parts
 
@@ -400,19 +391,23 @@ Use the spacers and the screws to mount the Raspberry Pi on the Raspberry Pi gro
 Plug the shield on top of the Raspberry Pi.  
 Insert the SD card.  
 Connect the LED cable to the shield.  
+
+<div figure-id="fig:TL-19">
+<img src="STEP_18_cropped.png" style="width: 80%"/>
+</div>
+
+
 Connect the Ethernet cable.  
 Connect the USB cable.
-<div figure-id="fig:TL-19">
-<img src="images/TL-19.jpg" style="width: 80%"/>
-<figcaption>
-</figcaption>
-</div>  
+
+
+
 If done correctly the LEDs should be on.  
+
 <div figure-id="fig:TL-20">
 <img src="images/TL-20.jpg" style="width: 80%"/>
-<figcaption>
-</figcaption>
 </div>  
+
 Close the ground module with the case.    
 
 <div figure-id="fig:TL-21">
