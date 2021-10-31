@@ -364,7 +364,7 @@ Street name signs should never be perpendicular to the road - they are too big a
 
 ## Traffic Lights {#traffic-light-app-spec status=ready}
 
-The assembly procedure for building the a traffic light is found in [](#traffic-light-assembly).
+The assembly procedure for building traffic lights can be found in [](#traffic-light-assembly-18).
 
 ### Placement
 
@@ -376,4 +376,4 @@ The Raspberry Pi should sit on a pole that is based at the corner of the tile ou
 
 -->
 
-The computational stack of the traffic light should be mounted in the appropriate housing outside the allowable driving region. The cabling should be housed in the appropriate structure as detailed in [](#traffic-light-assembly). The traffic light pillar stands should be positioned in such a way that the embedded traffic sign stands respect the above specifications for traffic light stands.
+The computational stack of the traffic light should be mounted in the appropriate housing outside the allowable driving region. The cabling should be housed in the appropriate structure as detailed in [](#traffic-light-assembly-18). The traffic light pillar stands should be positioned in such a way that the embedded traffic sign stands respect the above specifications for traffic light stands.
