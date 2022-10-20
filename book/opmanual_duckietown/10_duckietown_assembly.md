@@ -16,7 +16,7 @@ You can refer to these resources for assembly tips on the various city elements:
 
 - [Roads assembly](#dt-ops-tiles);
 - [Traffic signs assembly](#dt-ops-city-traffic-signs);
-- [Traffic lights assembly](#traffic-light-assembly);
+- [Traffic lights assembly](#traffic-light-assembly-18);
 
 Once you are done building your city, populate it with tons of Duckies!
 
