@@ -183,4 +183,12 @@ The resulting 3-way intersection can be seen in [](#fig:tile_instruction_3way_1)
   <img style="width: 100%; height: auto;" src="opmanual_duckietown/images/tiles/instructions/3way_1_done.png"/>
 </div>
 
+### Troubleshooting
 
+Symptom: my tape tends to detach from the tiles. The glue is no good.
+
+Resolution: make sure you follow these steps:
+
+1. clean the tiles with a water and alcohol solution to remove residual oils before placing the tapes, and dry them completely
+2. apply the tape directly to the tiles and cut it on site, rather than using an intermediate medium
+3. use a heat source, e.g., a hair dryer, to warm up the tape after the first application. The objective is to soften the glue. Once back to room temperature, the stickyness will be much improved.
